@@ -30,13 +30,15 @@ class _FittedBoxWidgetState extends State<FittedBoxWidget> {
         child: Container(
           color: Colors.amber,
           width: 300,
-          height: 300,
+          height: 100,
           child: const Center(
-            child: Text(
-              "Gede Astu Nugraha HAHHAHAHAHA",
-              style: TextStyle(
-                fontSize: 35,
-                color: Colors.white
+            child: FittedBox(
+              child: Text(
+                "Gede Astu Nugraha HAHHAHAHAHAHAHAHAHHAHHHAHHA",
+                style: TextStyle(
+                  fontSize: 35,
+                  color: Colors.white
+                ),
               ),
             ),
           ),
