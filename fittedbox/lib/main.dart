@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 void main(){
-  runApp(Apps());
+  runApp(const Apps());
 }
 
 class Apps extends StatelessWidget {
@@ -31,14 +31,12 @@ class _FittedBoxWidgetState extends State<FittedBoxWidget> {
           color: Colors.amber,
           width: 300,
           height: 100,
-          child: const Center(
-            child: FittedBox(
-              child: Text(
-                "Gede Astu Nugraha HAHHAHAHAHAHAHAHAHHAHHHAHHA",
-                style: TextStyle(
-                  fontSize: 35,
-                  color: Colors.white
-                ),
+          child: const FittedBox(
+            child: Text(
+              "Gede Astu Nugraha HAHHAHAHAHAHAHAHAHHAHHHAHHA",
+              style: TextStyle(
+                fontSize: 35,
+                color: Colors.white
               ),
             ),
           ),
